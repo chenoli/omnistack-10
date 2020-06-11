@@ -34,8 +34,6 @@ module.exports = {
         ],
       };
 
-      console.log(location);
-
       dev = await Dev.create({
         github_username,
         name,
